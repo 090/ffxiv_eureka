@@ -1,0 +1,299 @@
+--- 
+added: "^03:Added new combatant (?<Name>.+?)\\."
+autoimport: once
+export: 
+  - 
+    join: " → "
+    text: <Name2> (<RepopMin>)
+  - 
+    join: " "
+    text: <Name3>[<PopTime>]
+  - 
+    join: 、
+    text: <Prefix><Name3>[<PopTime>]
+import: "^00:000b:"
+importnm: 
+  - (?<Name>[^\[\ -、]+?)\[(?<HH>\d\d):(?<MM>\d\d)\]
+  - (?:[\s:]|^)(?<Name>\w+(?:\s\w+)?)\s\((?<Min>\d+)[m分]\)
+list: 
+  - 
+    de: 
+      - schneekönigin
+      - Snow Queen
+      - Queen
+    en: 
+      - the snow queen
+      - Snow Queen
+      - Queen
+    fr: 
+      - reine des neiges
+      - Snow Queen
+      - Queen
+    ja: 
+      - 雪の女王
+      - 女王
+    lv: 20
+    repop: 120
+  - 
+    de: 
+      - taxim
+    en: 
+      - taxim
+    fr: 
+      - taxim
+    ja: 
+      - タキシム
+    lv: 21
+    repop: 120
+  - 
+    de: 
+      - aschedrache
+      - Ash Dragon
+      - AshDragon
+    en: 
+      - ash dragon
+      - ''
+      - AshDragon
+    fr: 
+      - dragon cendré
+      - Ash Dragon
+      - AshDragon
+    ja: 
+      - アッシュドラゴン
+      - ''
+      - ドラゴン
+    lv: 22
+    repop: 120
+  - 
+    de: 
+      - glavoid
+    en: 
+      - glavoid
+    fr: 
+      - graboïde
+      - Glavoid
+    ja: 
+      - グラヴォイド
+      - ''
+      - 芋虫
+    lv: 23
+    repop: 120
+  - 
+    de: 
+      - anapo
+      - Anapos
+    en: 
+      - anapos
+    fr: 
+      - anapos
+    ja: 
+      - アナポ
+    lv: 24
+    repop: 120
+  - 
+    de: 
+      - hakutaku
+    en: 
+      - hakutaku
+    fr: 
+      - hakutaku
+    ja: 
+      - ハクタク
+    lv: 25
+    repop: 120
+  - 
+    de: 
+      - iglu-könig
+      - Igloo
+    en: 
+      - king igloo
+      - Igloo
+    fr: 
+      - roi igloo
+      - Igloo
+    ja: 
+      - キングイグルー
+      - イグルー
+    lv: 26
+    repop: 120
+  - 
+    de: 
+      - asag
+    en: 
+      - asag
+    fr: 
+      - asag
+    ja: 
+      - アサグ
+    lv: 27
+    repop: 120
+  - 
+    de: 
+      - surabhi
+    en: 
+      - surabhi
+    fr: 
+      - surabhi
+    ja: 
+      - スラビー
+    lv: 28
+    repop: 120
+  - 
+    de: 
+      - könig athro
+      - Arthro
+    en: 
+      - king arthro
+      - Arthro
+    fr: 
+      - roi arthro
+      - Arthro
+    ja: 
+      - キングアースロ
+      - ''
+      - アースロ
+    lv: 29
+    repop: 120
+  - 
+    de: 
+      - höher[a] minotaurus
+      - Brothers
+      - Mindertaur
+    en: 
+      - eldertaur
+      - Brothers
+      - Mindertaur
+    fr: 
+      - ancestrotaure
+      - Brothers
+      - Mindertaur
+    ja: 
+      - エルダータウルス
+      - ミノタウロス
+      - タウルス
+    lv: 30
+    repop: 120
+  - 
+    de: 
+      - heilsbringer
+      - Holy Cow
+      - HolyCow
+    en: 
+      - holy cow
+      - ''
+      - HolyCow
+    fr: 
+      - vache sacrée d'eurêka
+      - Holy Cow
+      - HolyCow
+    ja: 
+      - エウレカの聖牛
+      - ''
+      - 聖牛
+    lv: 31
+    repop: 120
+  - 
+    de: 
+      - hadhayosh
+    en: 
+      - hadhayosh
+    fr: 
+      - hadhayosh
+    ja: 
+      - ハダヨッシュ
+      - ''
+      - ヨッシュ
+    lv: 32
+    repop: 120
+  - 
+    de: 
+      - horus
+    en: 
+      - horus
+    fr: 
+      - horus
+    ja: 
+      - ホルス
+    lv: 33
+    repop: 120
+  - 
+    de: 
+      - erz-angra mainyu
+      - Mainyu
+    en: 
+      - arch angra mainyu
+      - Mainyu
+    fr: 
+      - archi angra mainyu
+      - Mainyu
+    ja: 
+      - アーチ・アンラ・マンユ
+      - マンユ
+    lv: 34
+    repop: 120
+  - 
+    de: 
+      - kopierend[a] cassie
+      - Cassie
+    en: 
+      - copycat cassie
+      - Cassie
+    fr: 
+      - cassie la copieuse
+      - Cassie
+    ja: 
+      - コピーキャット・キャシー
+      - キャシー
+    lv: 35
+    repop: 120
+  - 
+    de: 
+      - louhi
+    en: 
+      - louhi
+    fr: 
+      - louhi
+    ja: 
+      - ロウヒ
+    lv: 35
+    repop: 120
+requiredlen: 26
+timestamplen: 15
+weather: 
+  de: 
+    - Heiter
+    - Neblig
+    - Gluthitze
+    - Schnee
+    - Gewittrig
+    - Schneesturm
+  en: 
+    - Fair Skies
+    - Fog
+    - Heat Waves
+    - Snow
+    - Thunder
+    - Blizzards
+  fr: 
+    - Clair
+    - Brouillard
+    - Torride
+    - Neige
+    - Orages
+    - Blizzard
+  ja: 
+    - 晴れ
+    - 霧
+    - 灼熱波
+    - 雪
+    - 雷
+    - 吹雪
+  rate: 
+    - 10
+    - 18
+    - 18
+    - 18
+    - 18
+    - 18
+zone: 
+  - The Forbidden Land, Eureka Pagos

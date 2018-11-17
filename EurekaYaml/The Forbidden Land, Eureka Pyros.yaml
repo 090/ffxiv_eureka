@@ -1,0 +1,306 @@
+--- 
+added: "^03:Added new combatant (?<Name>.+?)\\."
+autoimport: once
+export: 
+  - 
+    join: 、
+    text: <Prefix><Name3>[<PopTime>]
+  - 
+    join: " → "
+    text: <Name2> (<RepopMin>)
+  - 
+    join: " "
+    text: <Name3>[<PopTime>]
+import: "^00:000b:"
+importnm: 
+  - (?<Name>[^\[\ -、]+?)\[(?<HH>\d\d):(?<MM>\d\d)\]
+  - (?:[\s:]|^)(?<Name>\w+(?:[ -]\w+)?)\s\((?<Min>\d+)[m分]\)
+list: 
+  - 
+    de: 
+      - Leukosia
+      - Leucosia
+    en: 
+      - Leucosia
+    fr: 
+      - Leucosie
+      - Leucosia
+    ja: 
+      - レウコシアー
+      - レウコ
+      - レウコシア
+    lv: 35
+    repop: 120
+  - 
+    de: 
+      - Flauros
+    en: 
+      - Flauros
+    fr: 
+      - Flauros
+    ja: 
+      - フラウロス
+    lv: 36
+    repop: 120
+  - 
+    de: 
+      - Sophist
+    en: 
+      - the Sophist
+      - Sophist
+    fr: 
+      - Le Sophiste
+      - Sophist
+    ja: 
+      - ソフィスト
+    lv: 37
+    repop: 120
+  - 
+    de: 
+      - Graffiacane
+      - Graff
+      - Graffiacane
+    en: 
+      - Graffiacane
+      - Graff
+      - Graffiacane
+    fr: 
+      - Graffiacane
+      - Graff
+      - Graffiacane
+    ja: 
+      - グラッフアカーネ
+      - グラフアカネ
+      - アカーネ
+    lv: 38
+    repop: 120
+  - 
+    de: 
+      - Askalaphos
+      - Askala
+      - Askalaphos
+    en: 
+      - Askalaphos
+      - Askala
+      - Askalaphos
+    fr: 
+      - Ascalaphe
+      - Askala
+      - Askalaphos
+    ja: 
+      - アスカラポス
+      - ''
+      - アスカラ
+    lv: 39
+    repop: 120
+  - 
+    de: 
+      - Großherzog Batym
+      - Duke Batym
+      - DukeBatym
+    en: 
+      - Grand Duke Batym
+      - Duke Batym
+      - DukeBatym
+    fr: 
+      - Bathim le Grand Duc
+      - Duke Batym
+      - DukeBatym
+    ja: 
+      - グランドデューク・バティム
+      - デュークパティム
+      - バティム
+    lv: 40
+    repop: 120
+  - 
+    de: 
+      - Aetolus
+    en: 
+      - Aetolus
+    fr: 
+      - Aetolos
+      - Aetolus
+    ja: 
+      - アイトロス
+    lv: 41
+    repop: 120
+  - 
+    de: 
+      - Lesath
+    en: 
+      - Lesath
+    fr: 
+      - Lesath
+    ja: 
+      - レサト
+    lv: 42
+    repop: 120
+  - 
+    de: 
+      - Eldthurs
+    en: 
+      - Eldthurs
+    fr: 
+      - Eldthurs
+    ja: 
+      - エルドスルス
+      - ''
+      - エルドス
+    lv: 43
+    repop: 120
+  - 
+    de: 
+      - Iris
+    en: 
+      - Iris
+    fr: 
+      - Iris
+    ja: 
+      - イリス
+    lv: 44
+    repop: 120
+  - 
+    de: 
+      - Wüterix [t] Söldner
+      - Lamebrix
+    en: 
+      - Lamebrix Strikebocks
+      - Lamebrix
+    fr: 
+      - Lamebrix le Mercenaire
+      - Lamebrix
+    ja: 
+      - 傭兵のレイムプリクス
+      - レイムプリクス
+      - レイム
+    lv: 45
+    repop: 120
+  - 
+    de: 
+      - Dux
+    en: 
+      - Dux
+    fr: 
+      - Dux de la foudre
+      - Dux
+    ja: 
+      - ライトニング・ドゥクス
+      - ドゥクス
+    lv: 46
+    repop: 120
+  - 
+    de: 
+      - Trauerweide
+      - Jack
+    en: 
+      - the Weeping Willow
+      - Jack
+    fr: 
+      - saule pleureur
+      - Jack
+    ja: 
+      - ウィーピングウィロー
+      - ランバージャック
+      - ジャック
+    lv: 47
+    repop: 120
+  - 
+    de: 
+      - Glaukopis
+    en: 
+      - Glaukopis
+    fr: 
+      - Glaukôpis
+      - Glaukopis
+    ja: 
+      - グラウコピス
+      - ''
+      - グラウコ
+    lv: 48
+    repop: 120
+  - 
+    de: 
+      - Yin-Yang
+      - Ying-Yang
+      - YingYang
+    en: 
+      - Ying-Yang
+      - ''
+      - YingYang
+    fr: 
+      - Yin-Yang
+      - Ying-Yang
+      - YingYang
+    ja: 
+      - イン・ヤン
+      - インヤン
+    lv: 49
+    repop: 120
+  - 
+    de: 
+      - Skalli
+      - Skoll
+    en: 
+      - Skoll
+    fr: 
+      - Sköll
+      - Skoll
+    ja: 
+      - スコル
+    lv: 50
+    repop: 120
+  - 
+    de: 
+      - Penthesilea
+    en: 
+      - Penthesilea
+    fr: 
+      - Penthésilée
+      - Penthesilea
+    ja: 
+      - ペンテシレイア
+      - ペンテ
+      - レイア
+    lv: 50
+    repop: 120
+requiredlen: 26
+timestamplen: 15
+weather: 
+  de: 
+    - Heiter
+    - Gluthitze
+    - Gewittrig
+    - Schneesturm
+    - Schattenwind
+    - Schnee
+  en: 
+    - Fair Skies
+    - Heat Waves
+    - Thunder
+    - Blizzards
+    - Umbral Wind
+    - Snow
+  fr: 
+    - Clair
+    - Torride
+    - Orages
+    - Blizzard
+    - Vent ombral
+    - Neige
+  ja: 
+    - 晴れ
+    - 灼熱波
+    - 雷
+    - 吹雪
+    - 霊風
+    - 雪
+  rate: 
+    - 10
+    - 18
+    - 18
+    - 18
+    - 18
+    - 18
+zone: 
+  - The Forbidden Land, Eureka Pyros
+  - Unknown Zone (31B)

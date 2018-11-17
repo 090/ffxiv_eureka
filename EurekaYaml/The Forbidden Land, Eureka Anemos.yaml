@@ -1,0 +1,351 @@
+--- 
+zone: 
+  - Unknown Zone (2Dc)
+  - The Forbidden Land, Eureka Anemos
+list: 
+  - 
+    de: 
+      - Sabotender Corrido
+      - Sabo
+    en: 
+      - sabotender corrido
+      - Sabo
+    fr: 
+      - Pampa corrido
+      - Pampa
+    ja: 
+      - サボテンダー・コリード
+      - サボテンダー
+      - サボテン
+    lv: 1
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Prinz von Anemos
+      - Prinz[p]
+    en: 
+      - The Lord Of Anemos
+      - Lord
+      - 
+      - Tako
+    fr: 
+      - Seigneur D'Anemos
+      - Seigneur
+    ja: 
+      - ロード・オブ・アネモス
+      - ロード
+      - タコ
+    lv: 2
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Teles
+    en: 
+      - Teles
+    fr: 
+      - Teles
+    ja: 
+      - テレス
+    lv: 3
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Anemos-Kaiser
+      - Kaiser
+    en: 
+      - the emperor of anemos
+      - Emperor
+    fr: 
+      - empereur d'anemos
+      - Emperor
+    ja: 
+      - アネモス・エンペラー
+      - アネモス
+      - エンペラ
+    lv: 4
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Callisto
+    en: 
+      - Callisto
+    fr: 
+      - Callisto
+    ja: 
+      - カリスト
+    lv: 5
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Zahl
+    en: 
+      - Number
+    fr: 
+      - Number
+    ja: 
+      - ナンバーズ
+      - 
+      - ナンバ
+    lv: 6
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Jahannam
+      - Jaha
+    en: 
+      - Jahannam
+      - Jaha
+    fr: 
+      - Jahannam
+      - Jaha
+    ja: 
+      - ジャハンナム
+      - 
+      - ジャハン
+    lv: 7
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Amemet
+    en: 
+      - Amemet
+    fr: 
+      - Amemet
+    ja: 
+      - アメミット
+      - アミメット
+      - アメミ
+    lv: 8
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Caym
+    en: 
+      - Caym
+    fr: 
+      - Caym
+    ja: 
+      - カイム
+    lv: 9
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Bombadeel
+      - Bomba
+    en: 
+      - Bombadeel
+      - Bomba
+    fr: 
+      - Bombadeel
+      - Bomba
+    ja: 
+      - ボンバディール
+      - 
+      - ボンバ
+    lv: 10
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Serket
+    en: 
+      - Serket
+    fr: 
+      - Serket
+    ja: 
+    
+      - セルケト
+    lv: 11
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Verurteilende Julika
+      - Julika
+    en: 
+      - Judgmental Julika
+      - Julika
+    fr: 
+      - Julika
+    ja: 
+      - ジャッジメンタル・ジュリカ
+      - ジュリカ
+    lv: 12
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Weißer Reiter
+      - Reiter
+    en: 
+      - the white rider
+      - Rider
+    fr: 
+      - cavalier blanc
+      - Cavalier
+    ja: 
+      - ホワイトライダー
+      - 
+      - Wライダ
+    lv: 13
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - polyphemus
+      - Poly
+    en: 
+      - polyphemus
+      - Poly
+    fr: 
+      - polyphemus
+      - Poly
+    ja: 
+      - ポリュペモス
+      - 
+      - ポリュ
+    lv: 14
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Simurghs Läufer
+      - Simurghs
+    en: 
+      - Simurgh's strider
+      - Strider
+    fr: 
+      - trotteur de Simurgh
+      - Simurgh
+    ja: 
+      - シームルグ・ストライダー
+      - シームルグ
+      - シムルグ
+    lv: 15
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Hazmat-König
+      - Hazmat
+    en: 
+      - King Hazmat
+      - Hazmat
+    fr: 
+      - hazmat roi
+      - Hazmat
+    ja: 
+      - キング・ハズマット
+      - ハズマット
+      - ハズマ
+    lv: 16
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Fafnir
+    en: 
+      - Fafnir
+    fr: 
+      - Fafnir
+    ja: 
+      - ファヴニル
+      - 
+      - ファヴ
+    lv: 17
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Amarok
+    en: 
+      - Amarok
+    fr: 
+      - Amarok
+    ja: 
+      - アマロック
+      - 
+      - アマロ
+    lv: 18
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Lamashtu
+    en: 
+      - Lamashtu
+    fr: 
+      - Lamashtu
+    ja: 
+      - ラマシュトゥ
+      - 
+      - ラマシュ
+    lv: 19
+    repop: 120
+    prefix: 
+  - 
+    de: 
+      - Pazuzu
+    en: 
+      - Pazuzu
+    fr: 
+      - Pazuzu
+    ja: 
+      - パズズ
+    lv: 20
+    repop: 120
+    prefix: 
+
+timestamplen : 15
+#[00:00:00.000] 03:Added new combatant 
+
+requiredlen: 26
+#[00:00:00.000] 00:000b:ノ
+
+added: ^03:Added new combatant (?<Name>.+?)\.
+#trigger
+
+autoimport: once
+# 'once'
+# 'always'
+# 'none'
+
+import: "^00:000b:"
+# autoimport shout regex
+
+importnm: 
+  - '(?<Name>[^\[\ -、]+?)\[(?<HH>\d\d):(?<MM>\d\d)\]' # Sabo[12:11]
+  - '(?:[\s:]|^)(?<Name>\S+)\s\((?<Min>\d+)[m分]\)' # Sabo (120m)
+# need <Name> + <HH><MM> or <Min>
+
+
+export: 
+  -
+    text: '<Prefix><Name3>[<PopTime>]'
+    join: '、'
+  -
+    text: '<Name2> (<RepopMin>)'
+    join: ' → '
+  -
+    text: '<Name3>[<PopTime>]'
+    join: ' '
+weather: 
+  rate: [30,30,30,10] 
+  de: [Heiter, Stürmisch, Wolkenbruch, Schnee]
+  en: [Fair Skies, Gales, Showers, Snow]
+  fr: 
+    - Clair
+    - Vents violents
+    - Pluie torrentielle
+    - Neige
+  ja: [晴れ, 暴風, 暴雨, 雪]
+  
